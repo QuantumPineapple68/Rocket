@@ -32,7 +32,6 @@ public class Movement : MonoBehaviour
                 au.PlayOneShot(mainEngine);
                 mainThrust.Play();
             }
-            //hariom 
         }
         else
         {

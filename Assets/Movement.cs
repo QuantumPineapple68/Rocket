@@ -5,7 +5,7 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     private Rigidbody rb;
     private AudioSource au;
-    private float thrust = 250f;
+    private float thrust = 150f;
     private float roatationSpeed = 200f;
     [SerializeField] private AudioClip mainEngine;
     [SerializeField] private ParticleSystem mainThrust;
@@ -24,7 +24,7 @@ public class Movement : MonoBehaviour
     
     void ProcessMove()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.Space))
         {
             rb.AddRelativeForce(Vector3.up * (thrust * Time.deltaTime));
             if (!au.isPlaying)
@@ -39,7 +39,7 @@ public class Movement : MonoBehaviour
             mainThrust.Stop();
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             rb.freezeRotation = true;
             transform.Rotate(Vector3.forward * (roatationSpeed * Time.deltaTime));
@@ -49,7 +49,7 @@ public class Movement : MonoBehaviour
             }
             rb.freezeRotation = false;
         }
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.LeftArrow))
         {
             rb.freezeRotation = true;
             transform.Rotate(Vector3.back * (roatationSpeed * Time.deltaTime));

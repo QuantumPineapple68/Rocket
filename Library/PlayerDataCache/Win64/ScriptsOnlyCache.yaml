@@ -52,11 +52,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18220}
+      Script: {instanceID: 23270}
     - Class: 114
-      Script: {instanceID: 18792}
+      Script: {instanceID: 23274}
     - Class: 114
-      Script: {instanceID: 22594}
+      Script: {instanceID: 23278}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -105,13 +105,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18220}
+      Script: {instanceID: 23270}
     - Class: 114
-      Script: {instanceID: 18792}
+      Script: {instanceID: 23274}
     - Class: 114
-      Script: {instanceID: 20258}
+      Script: {instanceID: 23278}
     - Class: 114
-      Script: {instanceID: 22594}
+      Script: {instanceID: 23282}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -158,11 +158,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18220}
+      Script: {instanceID: 23270}
     - Class: 114
-      Script: {instanceID: 18792}
+      Script: {instanceID: 23274}
     - Class: 114
-      Script: {instanceID: 22594}
+      Script: {instanceID: 23278}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -209,11 +209,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18220}
+      Script: {instanceID: 23270}
     - Class: 114
-      Script: {instanceID: 18792}
+      Script: {instanceID: 23274}
     - Class: 114
-      Script: {instanceID: 22594}
+      Script: {instanceID: 23278}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -260,13 +260,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18220}
+      Script: {instanceID: 23270}
     - Class: 114
-      Script: {instanceID: 18792}
+      Script: {instanceID: 23274}
     - Class: 114
-      Script: {instanceID: 20258}
+      Script: {instanceID: 23278}
     - Class: 114
-      Script: {instanceID: 22594}
+      Script: {instanceID: 23282}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -313,13 +313,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18220}
+      Script: {instanceID: 23270}
     - Class: 114
-      Script: {instanceID: 18792}
+      Script: {instanceID: 23274}
     - Class: 114
-      Script: {instanceID: 20258}
+      Script: {instanceID: 23278}
     - Class: 114
-      Script: {instanceID: 22594}
+      Script: {instanceID: 23282}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -368,13 +368,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18220}
+      Script: {instanceID: 23270}
     - Class: 114
-      Script: {instanceID: 18792}
+      Script: {instanceID: 23274}
     - Class: 114
-      Script: {instanceID: 20258}
+      Script: {instanceID: 23278}
     - Class: 114
-      Script: {instanceID: 22594}
+      Script: {instanceID: 23282}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -421,11 +421,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18220}
+      Script: {instanceID: 23270}
     - Class: 114
-      Script: {instanceID: 18792}
+      Script: {instanceID: 23274}
     - Class: 114
-      Script: {instanceID: 22594}
+      Script: {instanceID: 23278}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -472,15 +472,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18220}
+      Script: {instanceID: 23270}
     - Class: 114
-      Script: {instanceID: 18792}
+      Script: {instanceID: 23274}
     - Class: 114
-      Script: {instanceID: 20258}
+      Script: {instanceID: 23278}
     - Class: 114
-      Script: {instanceID: 22594}
+      Script: {instanceID: 23282}
     - Class: 114
-      Script: {instanceID: 23474}
+      Script: {instanceID: 23528}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -529,13 +529,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18220}
+      Script: {instanceID: 23270}
     - Class: 114
-      Script: {instanceID: 18792}
+      Script: {instanceID: 23274}
     - Class: 114
-      Script: {instanceID: 20258}
+      Script: {instanceID: 23278}
     - Class: 114
-      Script: {instanceID: 22594}
+      Script: {instanceID: 23282}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -819,12 +819,6 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: ab3ce44d15e2e2b480a1a5a37d52b736
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Quit
-  - hash:
-      serializedVersion: 2
       Hash: a1ac4c50e55874de16eee3db71aa9784
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -949,12 +943,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExit2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 137099d52faa6abf0d712953f1995e94
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Movement
   - hash:
       serializedVersion: 2
       Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
@@ -1237,12 +1225,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: c205b97ed6f93f2723430b7b5bd12c38
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Oscillator
   - hash:
       serializedVersion: 2
       Hash: 17f82e3e7d8f8b07a270a4aad9bfe79d
@@ -1593,12 +1575,6 @@ ScriptsOnlyBuild:
     className: CinemachineStateDrivenCamera
   - hash:
       serializedVersion: 2
-      Hash: 17d09e6113b0282cdcbfdd5eca76fcad
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CollisionHnadler
-  - hash:
-      serializedVersion: 2
       Hash: 9a174471d4db2c0c6d3ac47d2f818db1
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1687,6 +1663,30 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 17d09e6113b0282cdcbfdd5eca76fcad
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CollisionHnadler
+  - hash:
+      serializedVersion: 2
+      Hash: ab3ce44d15e2e2b480a1a5a37d52b736
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Quit
+  - hash:
+      serializedVersion: 2
+      Hash: 137099d52faa6abf0d712953f1995e94
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Movement
+  - hash:
+      serializedVersion: 2
+      Hash: c205b97ed6f93f2723430b7b5bd12c38
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Oscillator
   platform: 19
   scenePathNames:
   - Assets/Scenes/Level 0.unity
@@ -1699,4 +1699,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level 1.unity
   - Assets/Scenes/Level 8.unity
   - Assets/Scenes/Level 9.unity
-  playerPath: D:/Unity/RickyRocket/Rocket.exe
+  playerPath: D:/Unity/RickyRocket by nachi/Rocket.exe

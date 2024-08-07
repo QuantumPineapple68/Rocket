@@ -1,0 +1,383 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1723009680202698, "dur":7539, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723009680210249, "dur":130, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723009680210429, "dur":492, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723009680211185, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/Rocket_Data/level4" }}
+,{ "pid":12345, "tid":0, "ts":1723009680211736, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/Rocket_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":0, "ts":1723009680214071, "dur":112, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/Rocket_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":0, "ts":1723009680210949, "dur":3939, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723009680214889, "dur":718879, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723009680933772, "dur":330, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723009680934102, "dur":53, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723009680934156, "dur":155, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723009680934584, "dur":2979, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1723009680211621, "dur":3282, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723009680214908, "dur":1963, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723009680220720, "dur":961, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1723009680221695, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1723009680221853, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1723009680221944, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1723009680222308, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nachiket\\Rocket\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723009680222411, "dur":226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nachiket\\Rocket\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723009680222639, "dur":545, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nachiket\\Rocket\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723009680223189, "dur":654, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nachiket\\Rocket\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723009680223847, "dur":840, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nachiket\\Rocket\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723009680224693, "dur":182, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nachiket\\Rocket\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723009680224876, "dur":578, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nachiket\\Rocket\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723009680225460, "dur":1007, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nachiket\\Rocket\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723009680221692, "dur":5114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1723009680227181, "dur":141, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723009680228716, "dur":700849, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1723009680931765, "dur":276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1723009680931759, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/Rocket_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1723009680932078, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1723009680211754, "dur":3176, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723009680214936, "dur":473, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723009680215410, "dur":1478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723009680216889, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1723009680224405, "dur":5643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1723009680230083, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1723009680230234, "dur":12647, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723009680248014, "dur":13182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1723009680261259, "dur":1655, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723009680263066, "dur":9954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723009680273110, "dur":8482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723009680281661, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723009680282026, "dur":7528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723009680289882, "dur":942, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723009680296811, "dur":2139, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723009680290897, "dur":8084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723009680299097, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723009680299598, "dur":4421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723009680304108, "dur":8223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723009680312362, "dur":364, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723009680312761, "dur":7436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723009680320282, "dur":37918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723009680358246, "dur":1485, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723009680359777, "dur":7216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723009680367098, "dur":11803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723009680378974, "dur":11516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723009680390552, "dur":9758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":2, "ts":1723009680412612, "dur":7932, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723009680400378, "dur":20183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1723009680420963, "dur":4918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1723009680426012, "dur":43045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level7" }}
+,{ "pid":12345, "tid":2, "ts":1723009680469213, "dur":35237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1723009680504600, "dur":429180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680211822, "dur":3132, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680214961, "dur":375, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680215336, "dur":1544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680216908, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.39f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1723009680216885, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1723009680226138, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680222625, "dur":3647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1723009680226315, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1723009680226449, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1723009680229130, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1723009680229203, "dur":1234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680230490, "dur":19850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1723009680250398, "dur":6958, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680271999, "dur":1402, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680257394, "dur":16020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723009680273448, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680274025, "dur":10057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723009680284320, "dur":4851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723009680289345, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680289430, "dur":4161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723009680293652, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680297896, "dur":1980, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680293786, "dur":6113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723009680299964, "dur":767, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680405354, "dur":15041, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680300756, "dur":119689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723009680420637, "dur":288, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723009680420929, "dur":5079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1723009680426092, "dur":43712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level6.resS" }}
+,{ "pid":12345, "tid":3, "ts":1723009680469933, "dur":32355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1723009680502433, "dur":431379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723009680211694, "dur":3218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723009680214917, "dur":377, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723009680215294, "dur":1596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723009680216906, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.39f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1723009680216895, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1723009680224357, "dur":7788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1723009680233357, "dur":30502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723009680263899, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723009680264007, "dur":9322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723009680273367, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723009680273886, "dur":79945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723009680353877, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723009680410862, "dur":9647, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723009680354049, "dur":66482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723009680420668, "dur":6670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1723009680427741, "dur":39397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1723009680467232, "dur":7164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1723009680474574, "dur":13421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1723009680488189, "dur":19210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1723009680507549, "dur":426243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680211740, "dur":3179, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680214924, "dur":418, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680215343, "dur":1534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680216892, "dur":427, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680224713, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1723009680227348, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1723009680227775, "dur":668, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680229658, "dur":2701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1723009680232400, "dur":617, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680238997, "dur":19253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680258390, "dur":10728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680269165, "dur":1216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680270472, "dur":11675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680282301, "dur":6994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680289462, "dur":3569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680293065, "dur":311, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680297545, "dur":2152, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680293398, "dur":6315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680299759, "dur":668, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680300565, "dur":3758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680304473, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680304683, "dur":1324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680306066, "dur":7455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680313604, "dur":7367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680321731, "dur":10512, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680332440, "dur":29051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680361521, "dur":472, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680362034, "dur":5052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680367150, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680369366, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680383384, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680369442, "dur":14746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680384238, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.39f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680384235, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680384304, "dur":741, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723009680385083, "dur":120538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723009680505663, "dur":428126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680211802, "dur":3139, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680214946, "dur":494, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680215440, "dur":1446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680216907, "dur":250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.39f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1723009680216887, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1723009680225037, "dur":5759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1723009680230830, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":6, "ts":1723009680230828, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/Rocket.exe" }}
+,{ "pid":12345, "tid":6, "ts":1723009680230979, "dur":3337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket.exe" }}
+,{ "pid":12345, "tid":6, "ts":1723009680234534, "dur":4277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680238831, "dur":117, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680239094, "dur":25533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723009680264677, "dur":583, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680265338, "dur":24450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723009680289830, "dur":992, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680296813, "dur":2170, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680290889, "dur":8114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723009680299097, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680299594, "dur":7251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723009680306897, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680307058, "dur":7948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723009680315065, "dur":578, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680315669, "dur":18916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723009680334623, "dur":19422, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680354086, "dur":9705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723009680363841, "dur":1089, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680364966, "dur":3955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723009680369037, "dur":14894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723009680384003, "dur":16641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723009680412953, "dur":8261, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723009680400680, "dur":20552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1723009680421440, "dur":81754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level9" }}
+,{ "pid":12345, "tid":6, "ts":1723009680503368, "dur":430335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680211856, "dur":3115, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680214979, "dur":418, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680215397, "dur":1487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680216891, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1723009680221707, "dur":4907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1723009680226650, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.39f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1723009680226647, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1723009680226704, "dur":789, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680227533, "dur":3472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1723009680231063, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/Rocket_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1723009680231115, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680231940, "dur":10298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1723009680242347, "dur":23189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723009680265579, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680265919, "dur":11595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723009680277585, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680278064, "dur":6420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723009680284634, "dur":2177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680286858, "dur":128, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680295736, "dur":3335, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680287004, "dur":12082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723009680299285, "dur":5947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723009680305293, "dur":692, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680319348, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680306052, "dur":14958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723009680321837, "dur":11528, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680333397, "dur":51, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680362664, "dur":80, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680333459, "dur":29317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723009680362816, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680363113, "dur":6483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723009680369627, "dur":500, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680415646, "dur":5065, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723009680370179, "dur":50663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723009680420970, "dur":36334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level9.resS" }}
+,{ "pid":12345, "tid":7, "ts":1723009680457541, "dur":26697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1723009680484353, "dur":96232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1723009680580661, "dur":353035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723009680211897, "dur":3088, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723009680214992, "dur":515, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723009680215507, "dur":1372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723009680216903, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.39f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1723009680216886, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1723009680217634, "dur":10196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1723009680227902, "dur":537, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723009680228659, "dur":30084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1723009680258819, "dur":4107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723009680263081, "dur":10410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723009680273547, "dur":5069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723009680278806, "dur":966, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723009680279800, "dur":12037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723009680292120, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723009680297266, "dur":2408, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723009680292409, "dur":7284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723009680299743, "dur":695, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723009680300568, "dur":3488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723009680304114, "dur":7825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723009680312236, "dur":5026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723009680317317, "dur":36922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723009680354554, "dur":741, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723009680355359, "dur":32749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723009680415886, "dur":4789, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723009680388187, "dur":32509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":8, "ts":1723009680425053, "dur":41049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1723009680466280, "dur":297, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723009680483159, "dur":274, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723009680466589, "dur":16880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level3.resS" }}
+,{ "pid":12345, "tid":8, "ts":1723009680483730, "dur":27578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1723009680511440, "dur":422251, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680211948, "dur":3050, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680215005, "dur":792, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680215798, "dur":1098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680216900, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1723009680224352, "dur":6278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1723009680230676, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.39f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723009680230673, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723009680230893, "dur":54230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723009680285217, "dur":6587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723009680291879, "dur":1699, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680298173, "dur":1819, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680293614, "dur":6392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723009680300050, "dur":741, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680300808, "dur":3382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723009680304226, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680304452, "dur":8303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723009680312791, "dur":551, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680313392, "dur":4657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723009680318099, "dur":1874, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680320018, "dur":39388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723009680359446, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680359805, "dur":24246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723009680384088, "dur":446, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680384605, "dur":11492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723009680399934, "dur":5088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":9, "ts":1723009680414333, "dur":7677, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680405141, "dur":16898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1723009680422681, "dur":657, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680423352, "dur":61787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level8" }}
+,{ "pid":12345, "tid":9, "ts":1723009680509318, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723009680485265, "dur":24199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1723009680512209, "dur":421533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1723009680211990, "dur":3024, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1723009680215021, "dur":589, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1723009680215611, "dur":1309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1723009680224741, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1723009680227609, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.39f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1723009680227605, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1723009680228616, "dur":21599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1723009680250288, "dur":6542, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1723009680256919, "dur":8722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1723009680265677, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1723009680293800, "dur":5107, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1723009680265922, "dur":33034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1723009680300105, "dur":20312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1723009680320438, "dur":3847, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1723009680324314, "dur":37139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1723009680361492, "dur":474, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1723009680362001, "dur":84878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1723009680446962, "dur":42196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level5.resS" }}
+,{ "pid":12345, "tid":10, "ts":1723009680489224, "dur":444474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680212031, "dur":2995, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680215027, "dur":1855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680216886, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1723009680216962, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680221683, "dur":5523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1723009680227297, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1723009680227453, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1723009680230185, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.39f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723009680230181, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723009680230655, "dur":6891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723009680237620, "dur":1160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680239057, "dur":25054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723009680264145, "dur":1112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680265348, "dur":14107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723009680279574, "dur":5496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723009680285162, "dur":6930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723009680292142, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680297161, "dur":1938, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680292326, "dur":6864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723009680299277, "dur":4122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723009680303442, "dur":1084, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680304559, "dur":10733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723009680315327, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680315665, "dur":17043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723009680332757, "dur":1246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680334050, "dur":30823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723009680364903, "dur":631, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680365587, "dur":17697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723009680383329, "dur":408, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680383853, "dur":8398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723009680412964, "dur":8820, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680392322, "dur":29496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1723009680421977, "dur":32901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level8.resS" }}
+,{ "pid":12345, "tid":11, "ts":1723009680455029, "dur":14034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level4.resS" }}
+,{ "pid":12345, "tid":11, "ts":1723009680482932, "dur":480, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723009680469213, "dur":14285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1723009680484907, "dur":15631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1723009680500828, "dur":432918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723009680212073, "dur":2972, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723009680215047, "dur":1856, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723009680216904, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1723009680225184, "dur":3632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1723009680228932, "dur":19621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1723009680248609, "dur":380, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723009680249047, "dur":9386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723009680258531, "dur":13572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723009680272167, "dur":663, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723009680272895, "dur":4317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723009680277325, "dur":7564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723009680285022, "dur":7245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723009680292359, "dur":827, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723009680297704, "dur":2021, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723009680293218, "dur":6525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723009680299786, "dur":767, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723009680300584, "dur":9585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723009680310228, "dur":1720, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723009680311992, "dur":5187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723009680317276, "dur":39825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723009680357140, "dur":919, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723009680358190, "dur":6647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723009680364882, "dur":653, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723009680365557, "dur":208, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723009680365772, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723009680369240, "dur":9621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723009680378974, "dur":10735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723009680389929, "dur":6081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":12, "ts":1723009680396244, "dur":3844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":12, "ts":1723009680409734, "dur":10713, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723009680400210, "dur":20268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":12, "ts":1723009680421541, "dur":3946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1723009680425878, "dur":27396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level7.resS" }}
+,{ "pid":12345, "tid":12, "ts":1723009680514438, "dur":202, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723009680453446, "dur":61238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/RickyRocket/Rocket_Data/level5" }}
+,{ "pid":12345, "tid":12, "ts":1723009680515028, "dur":418743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723009680944507, "dur":2610, "ph":"X", "name": "ProfilerWriteOutput" }
+,

@@ -1,7 +1,10 @@
+using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Movement : MonoBehaviour
 {
+    private InputSystem controls;
     // Start is called before the first frame update
     private Rigidbody rb;
     private AudioSource au;
@@ -11,6 +14,17 @@ public class Movement : MonoBehaviour
     [SerializeField] private ParticleSystem mainThrust;
     [SerializeField] private ParticleSystem rightThrust;
     [SerializeField] private ParticleSystem leftThrust;
+
+    // private void Awake()
+    // {
+    //     controls = new InputSystem();
+    //     controls.Enable();
+    //     controls.Land.Movement.performed += ctx =>
+    //     {
+    //         direction
+    //     }
+    // }
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();

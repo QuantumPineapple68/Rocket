@@ -2,8 +2,8 @@
 <h3 align="center">Rocket is a 3D game developed in Unity by me during my first year. The game consists of 10 levels, each featuring interesting and challenging mechanics programmed in C#. Players must complete all levels to succeed.</h3>
 
 <h3 align="left">Features :-</h3>
-<p align="left">10 Unique Levels: Each level offers increasing challenges.
-C# Based Mechanics: Custom-built mechanics coded from scratch.
+<p align="left">10 Unique Levels: Each level offers increasing challenges.<br/>
+C# Based Mechanics: Custom-built mechanics coded from scratch.<br/>
 Unity 3D: Developed using Unity’s powerful engine for smooth gameplay.
 </p>
 
